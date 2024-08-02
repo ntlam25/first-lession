@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
-public class Calculate {
+public class Calculator {
 
-    @GetMapping("/calculate")
+    @GetMapping("/calculator")
     public double Calculate(double num1, double num2, char operator){
 
         switch (operator) {
